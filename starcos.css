@@ -1,0 +1,149 @@
+
+* {
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+
+}
+
+/* Core styles */
+
+body {
+    text-align: center;
+    background: rgb(1, 1, 39);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(235, 232, 232);
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0 10px;
+
+}
+
+img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+h1 {
+    line-height: 1.1;
+    font-size: 2.7em;
+}
+
+#showcase p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+
+
+
+/* Showcase styles */
+#showcase {
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+span#excla {
+    font-size: 1.5em;
+    color: rgb(177, 22, 100);
+}
+.content-wrap {
+    /* border: 1px solid yellow; */
+
+    padding: 0.8em 2em 0;
+}
+
+.bg-image {
+    position: absolute;
+    background: url('imagefolder/hairSprays.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -100;
+
+}
+
+ .btn {
+    background: #002D62;
+    text-decoration:none;
+    border-radius: 5px;
+
+    padding: 0.7em;
+    padding-top: ;
+    color: white;
+}
+.btn:hover {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(10, 10, 99) 44%, rgba(0,212,255,1) 100%);
+    padding: 0.8;
+    border-bottom: 4px solid hotpink;
+}
+ .btn span {
+    letter-spacing: 0.2em;
+    color: rgb(180, 110, 145);
+    font-size: 1.2em;
+}
+
+#section-a {
+    background:linear-gradient(to right, rgb(0, 0, 22), rgb(8, 66, 87)) ;
+    color: linear-gradient(to right, skyblue, blue);
+     
+    padding: 0 10px 20px;
+    letter-spacing: 1.5px;
+}
+.inventory {
+    color: rgb(231, 198, 214);
+    border-top: 2px solid hotpink;
+}
+
+/* All card content styles general settings */
+
+.card-content {
+
+     letter-spacing: 1.5px;
+    background:linear-gradient(to right, rgb(0, 0, 42), rgb(88, 192, 233)) ;
+    padding: 30px 0 30px 0;
+
+}
+
+/* Section B styles */
+
+#section-b {
+
+}
+
+
+/* Footer */
+
+
+#main-footer {
+    height: 150px;
+    padding-top:20px ;
+}
+#main-footer .fb {
+    color: hotpink;
+    font-size: 3em;
+    margin: 10px;
+}
+#main-footer .fb:hover {
+    color:rgb(126, 43, 84);
+}
+
+
+
+
+
+
+ 
+ 
